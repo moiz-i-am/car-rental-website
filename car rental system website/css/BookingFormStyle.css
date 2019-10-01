@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.main-vehicles-wrap{
+    width:100%;
+}
+
+.btnStyle{
+    background-color:#ECAC4A;
+    border-color:#ECAC4A;
+}
+
+.btnStyle:hover{
+    border-color:#ffb600;
+    background-color:#ffb600;
+    
+}
+

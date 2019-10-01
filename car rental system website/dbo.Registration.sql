@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Table] (
+    [NAME]     VARCHAR (50) NOT NULL,
+    [EMAIL]    VARCHAR (50) NOT NULL,
+    [PASSWORD] VARCHAR (50) NOT NULL,
+    [GENDER]   VARCHAR (50) NOT NULL,
+    [CNIC]     FLOAT (53)   NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

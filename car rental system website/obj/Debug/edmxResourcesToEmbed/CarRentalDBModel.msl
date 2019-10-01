@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VehicleRentalWebDbModelStoreContainer" CdmEntityContainer="VehicleRentalWebDbEntities">
+    <EntitySetMapping Name="Registrations">
+      <EntityTypeMapping TypeName="VehicleRentalWebDbModel.Registration">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CARs">
+      <EntityTypeMapping TypeName="VehicleRentalWebDbModel.CAR">
+        <MappingFragment StoreEntitySet="CAR">
+          <ScalarProperty Name="KMDRIVEN" ColumnName="KMDRIVEN" />
+          <ScalarProperty Name="TRANSMITION" ColumnName="TRANSMITION" />
+          <ScalarProperty Name="FUEL" ColumnName="FUEL" />
+          <ScalarProperty Name="YEAR" ColumnName="YEAR" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="IMAGE" ColumnName="IMAGE" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

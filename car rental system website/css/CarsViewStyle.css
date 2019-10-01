@@ -1,0 +1,52 @@
+﻿body {
+}
+
+.all-vehcles-filter{
+    background-color:#5E382D;
+    
+}
+
+.all-vehcles-filter h4{
+    float:left;
+    width:180px;
+    font-size:x-large;
+    color:#fff;
+}
+
+#drpBodyType{
+    height: 36px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+#drpEngineType{
+     height: 36px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+#drpTransmition{
+     height: 36px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.btnStyle{
+    background-color:#ECAC4A;
+    border-color:#ECAC4A;
+}
+
+.btnStyle:hover{
+    border-color:#ffb600;
+    background-color:#ffb600;
+    
+}
+
+#drpBodyType0, #drpYear{
+    margin-bottom:20px;
+}
+
+.filter-car-aside{
+    background-color:#5E382D;
+    text-align:center;
+}
